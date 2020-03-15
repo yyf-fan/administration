@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta chars"utf-8">
+</head>
+<body>
+	<a name="top"></a>
+	<form action="1.php" method="get">
+		<p>
+			<b>管理员名称:</b> 
+		<input type="text" name="uname" maxlength="8" placeholder="请输入用户名">
+		</p>
+		
+		<p>
+			<b>管理员密码:</b> 
+		<input type="password" name="upassword">
+		</p>
+		<p>
+			<b>性别</b>
+			<input type="radio" name="gender" value="male" checked> 男
+			<input type="radio" name="gender" value="female"> 女
+		</p>
+		
+		<p>
+			<b>地区</b> 
+			<input type="radio" name="place" value="bj" id="bj"><label for="bj">北京</label>
+			<input type="radio" name="place" value="sh" id="sh"><label for="sh">上海</label>
+			<input type="radio" name="place" value="sz" id="sz"><label for="sz">深圳</label>
+		</p>
+		<input type="hidden" name="uID" value="10010">
+		<p>
+			上传文件:
+			<input type="file" name="ufile">
+		</p>
+		<p>
+			<b>管理等级</b>
+			<select name="power">
+				<option value="1">等级一</option>
+				<option value="2">等级二</option>
+				<option value="3">等级三</option>
+			</select>
+		</p>
+		<p>
+			附言:
+		</p>
+		<p>
+			<textarea name="tome" cols="50" rows="5">
+			</textarea>
+		</p>
+		
+		<p>
+			<input type="submit" name="submit" value="注册">
+			<input type="reset" name="reset" value="取消">
+			<a href="#top">返回顶部</a>
+		</P>
+		<p>
+			<button>登录</button>
+		</p>
+	</form>
+</body>
+</heml>
